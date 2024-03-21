@@ -1,0 +1,67 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    font-size: calc(10px + 2vmin);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.5rem;
+}
+.buttons button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #7733ee;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.cart div{
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cart button{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.3rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    }
+
+    .modal-table{
+        width: 100%;
+    }

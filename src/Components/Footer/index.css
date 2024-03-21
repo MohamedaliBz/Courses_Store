@@ -1,0 +1,19 @@
+.social-media-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.icon{
+    height: 4rem;
+    width: 4rem;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#copyright{
+    font-weight: 500;
+    font-size: 1rem; 
+}
