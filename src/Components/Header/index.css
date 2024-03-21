@@ -62,6 +62,10 @@ nav ul li a{
     border: none;
     }
 
-    .modal-table{
-        width: 100%;
-    }
+.modal-table{
+    width: 100%;
+}
+
+body.active-modal{
+    overflow-y: hidden;
+}

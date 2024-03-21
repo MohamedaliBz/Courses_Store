@@ -38,6 +38,12 @@ export default function Header(){
     dispatch(handleAddedItems({courseId , type}))
   }
 
+  // disabling scroll when modal is opened
+  if (isModalOpen){
+    document.body.classList.add('active-modal')
+  }else{
+    document.body.classList.remove('active-modal')
+  }
     return(
         <header>
             <h1>Logo</h1>
